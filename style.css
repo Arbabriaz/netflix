@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    width: 100%;
+}
+/* main navbar css open */
+.navbar{
+    display: flex;
+    width: 79%;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding: 10px;
+}
+.navbar .logo{
+    width: 165px;
+    position: relative;
+    z-index: 10;
+    margin-top: 9px;
+}
+.navbar .btn1{
+    margin-top: 12px;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background-color: #dd0505;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+    transition: all 0.3s;
+}
+.navbar .btn1:hover{
+    background-color: #c20000;
+}
+/* main navbar css close */
+
+/* main home page css open */
+.main {
+    background-image: url(bg.jpg);
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+}
+.main .box{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.60;
+    background-color: black;
+}
+.hero{
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    z-index: 10;
+    height: 88%;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero span{
+    line-height: 50px;
+}
+.hero .s1{
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 74px;
+}
+.hero .s2{
+    font-size: 30px;
+}
+.hero .s3{
+    font-size: 22px;
+}
+span input{
+    background-color: #0000007d;
+    padding: 18px;
+    width: 350px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+span .btn2{
+    border: none;
+    height: 53px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: #dd0505;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: 2px;
+    font-size: 22px;
+}
+span .btn2:hover{
+    background-color: #c20000;
+}
+/* main home page css close */
+
+.line{
+    width: 100%;
+    background-color: rgb(70, 70, 70);
+    height: 8px;
+}
+
+/* first section css open */
+.first{
+    max-width: 77vw;
+    height: 475px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Rubik', sans-serif;
+}
+.h1{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+}
+.hh1{
+    font-size: 45px;
+    line-height: 75px;
+}
+.hh2{
+    font-size: 22px;
+    line-height: 30px;
+}
+
+
+.secimg{
+    position: relative;
+}
+.secimg img{
+    position: relative;
+    z-index: 10;
+    width: 558px;
+}
+.secimg video{
+    position: absolute;
+    top: 88px;
+    right: 0px;
+}
+/* first section css close */
+
+
+/* section Frequently Asked Questions start */
+
+.faq{
+    font-family: 'Rubik', sans-serif;
+    background-color: black;
+    color: #fff;
+    padding: 28px;
+}
+.faq h1{
+    text-align: center;
+    text-align: center;
+    font-size: 53px;
+    line-height: 105px;
+}
+.faqbox{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 28px;
+    width: 79%;
+    margin: auto;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.faqbox:hover{
+    background-color: #3b3a3a;
+    cursor: pointer;
+}
+.faq svg{
+    cursor: pointer;
+}
+/* section Frequently Asked Questions close */
+
+
+/* main footer css open */
+footer{
+    font-family: 'Rubik', sans-serif;
+    height: 365px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+}
+
+footer .link{
+    height: 300px;
+    width: 223px;
+    margin: 24px;
+}
+footer .link1{
+    margin-left: 160px;
+}
+
+footer .link2{
+    margin-top: 65px;
+}
+
+footer .link li{
+    list-style: none;
+    padding: 5px;
+}
+
+footer .link li a{
+    color: #ffffffb3;
+    font-size: 14px;
+}
+
+footer .link1 select{
+    padding: 6px 20px;
+    background: transparent;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+    border: 2px solid;
+}
+
+footer .link1 p{
+    padding-top: 29px;
+    font-size: 14px;
+    margin-left: 9px;
+    color: #ffffffb3;
+}
+/* main footer css close */
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1311px){
+    .first{
+        flex-wrap: wrap;
+        text-align: center;
+        height: 640px;
+    }
+    
+}
+
+@media only screen and (max-width:982px){
+    footer{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+    }
+} 
