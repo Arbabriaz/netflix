@@ -1,2 +1,2 @@
 # netflix
-I developed netflix_com website
+https://arbabriaz.github.io/netflix/
